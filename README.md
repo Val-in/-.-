@@ -1,30 +1,21 @@
-# Hotel & Employee Database Analysis
+# SQL Practice Project
 
-Проект демонстрирует работу с базами данных PostgreSQL на примере двух сценариев: управление отелями и анализ сотрудников компании.
+This project contains a collection of SQL scripts designed for practicing database management and query development. It provides hands-on experience with creating databases, populating them with data, and performing various analytical tasks.
 
-## Цели проекта
-- Создание и наполнение баз данных.
-- Решение аналитических задач с использованием SQL.
-- Использование рекурсивных запросов для анализа подчиненных сотрудников.
+## Project Goals
+- Design and populate relational databases.
+- Solve analytical and reporting tasks using SQL.
+- Work with complex queries, including recursive CTEs and aggregate functions, to gain deeper understanding of SQL capabilities.
 
-## Структура репозитория
+## Repository Structure
+- `Departments_task4.sql`
+- `Hotel_task3.sql`
+- `Races_task2.sql`
+- `Vehicle_task1.sql`  
+These scripts include table creation, data insertion, and task solutions.
 
-all_scripts.sql # Все скрипты создания таблиц, наполнения данными и решения задач
-
-
-## Содержание
-1. **Отели**
-   - Таблицы: Hotel, Room, Customer, Booking
-   - Задачи: анализ бронирований, расходов клиентов, предпочтений по типу отелей
-2. **Сотрудники**
-   - Таблицы: Departments, Roles, Employees, Projects, Tasks
-   - Задачи: рекурсивный поиск подчиненных, подсчет задач и подчиненных, анализ менеджеров
-
-## Запуск проекта
-1. Создать базу данных PostgreSQL.
-2. Выполнить `all_scripts.sql`.
-3. Проверить результаты запросов по задачам.
-
-## Примечания
-- Все SQL-запросы снабжены комментариями.
-- Использованы функции агрегации, `STRING_AGG`, и рекурсивные CTE (`WITH RECURSIVE`).
+## How to Run
+1. Create a PostgreSQL database.
+2. Populate the database with the provided data scripts.
+3. Execute the queries to perform analysis or complete the tasks.
+4. Review the results to verify correctness and explore outputs.
